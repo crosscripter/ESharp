@@ -28,7 +28,7 @@ let compile = code => lines(code).map(line => {
 let run = code => eval(compile(code))
 
 let code = `
-# Shapes.cross
+# Shapes.es
 
 type Rectangle(width, height)
 type Square(size) = Rectangle(size, size)
